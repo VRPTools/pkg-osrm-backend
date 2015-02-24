@@ -2,7 +2,7 @@ Source: osrm-backend
 Section: web
 Priority: optional
 Maintainer: Daniel Kastl (Georepublic) <daniel@georepublic.de>
-Build-Depends: debhelper (>= 8.0.0), cmake
+Build-Depends: debhelper (>= 8.0.0), cdbs, cmake
 Standards-Version: 3.9.4
 Homepage: https://github.com/Project-OSRM/osrm-backend
 
