@@ -2,7 +2,7 @@ Source: osrm-backend
 Section: web
 Priority: optional
 Maintainer: Daniel Kastl (Georepublic) <daniel@georepublic.de>
-Build-Depends: debhelper (>= 8.0.0), cdbs, cmake, libboost-all-dev, libtbb-dev, liblua5.2-dev, libluabind-dev, libstxxl-dev, libxml2-dev, libosmpbf-dev, libbz2-dev, libprotobuf-dev
+Build-Depends: debhelper (>= 8.0.0), cdbs, cmake, libboost-all-dev, libtbb-dev, liblua5.2-dev, libluabind-dev, libstxxl-dev, libxml2, libxml2-dev, libosmpbf-dev, libbz2-dev, libprotobuf-dev
 Standards-Version: 3.9.4
 Homepage: https://github.com/Project-OSRM/osrm-backend
 
