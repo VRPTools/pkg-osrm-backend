@@ -1,3 +1,9 @@
+osrm-backend (4.5.0-ppa1~trusty2) trusty; urgency=medium
+
+  * added CDBS as build requirement
+
+ -- Daniel Kastl (Georepublic) <daniel@georepublic.de>  Wed, 25 Feb 2015 05:14:49 +0900
+
 osrm-backend (4.5.0-ppa1~trusty1) trusty; urgency=medium
 
   * initial debian directory created with dh_make
