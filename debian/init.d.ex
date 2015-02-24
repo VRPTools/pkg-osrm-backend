@@ -11,7 +11,7 @@
 #                    <...>
 ### END INIT INFO
 
-# Author: Daniel Kastl <daniel@georepublic.de>
+# Author: Daniel Kastl (Georepublic) <daniel@georepublic.de>
 
 # Do NOT "set -e"
 
