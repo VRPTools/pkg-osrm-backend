@@ -1,3 +1,9 @@
+osrm-backend (4.5.0-ppa1~trusty4) trusty; urgency=medium
+
+  * added missing dependency
+
+ -- Daniel Kastl (Georepublic) <daniel@georepublic.de>  Wed, 25 Feb 2015 05:52:25 +0900
+
 osrm-backend (4.5.0-ppa1~trusty3) trusty; urgency=medium
 
   * moved dependencies in control file
