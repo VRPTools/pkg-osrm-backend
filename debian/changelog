@@ -1,3 +1,19 @@
+osrm-backend (4.5.0-ppa1~trusty1) trusty; urgency=medium
+
+  * initial debian directory created with dh_make
+  * corrected licenses
+  * enabled and configured watch file
+  * added git-buildpackage configuration
+  * updated Readme files
+  * using CDBS for CMake
+  * completed control file
+  * removed optional arguments
+  * updated author string
+  * removed unnecessary templates
+  * install lua profile in shared directory
+
+ -- Daniel Kastl (Georepublic) <daniel@georepublic.de>  Wed, 25 Feb 2015 05:00:17 +0900
+
 osrm-backend (4.5.0-1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
