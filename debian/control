@@ -1,15 +1,14 @@
 Source: osrm-backend
-Section: unknown
+Section: web
 Priority: optional
 Maintainer: Daniel Kastl <daniel@georepublic.de>
 Build-Depends: debhelper (>= 8.0.0), cmake
 Standards-Version: 3.9.4
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/osrm-backend.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/osrm-backend.git;a=summary
+Homepage: https://github.com/Project-OSRM/osrm-backend
 
 Package: osrm-backend
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libtbb-dev, liblua5.2-dev, libluabind-dev, libstxxl-dev, libxml2, libxml2-dev, libosmpbf-dev, libbz2-dev, libprotobuf-dev
+Description: Open Source Routing Machine (OSRM)
+ Open Source Routing Machine computes shortest paths in a graph.
+ It was designed to run well with map data from the Openstreetmap Project.
