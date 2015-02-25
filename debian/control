@@ -7,7 +7,7 @@ Standards-Version: 3.9.4
 Homepage: https://github.com/Project-OSRM/osrm-backend
 
 Package: osrm-backend
-Architecture: any
+Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Open Source Routing Machine (OSRM)
  Open Source Routing Machine computes shortest paths in a graph.
