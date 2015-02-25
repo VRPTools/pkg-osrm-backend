@@ -1,3 +1,9 @@
+osrm-backend (4.5.0-ppa1~trusty6) trusty; urgency=medium
+
+  * reduced number of dependencies
+
+ -- Daniel Kastl (Georepublic) <daniel@georepublic.de>  Wed, 25 Feb 2015 10:51:14 +0900
+
 osrm-backend (4.5.0-ppa1~trusty5) trusty; urgency=medium
 
   * added missing dependencies
